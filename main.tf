@@ -3,7 +3,7 @@ resource "google_storage_bucket" "jenkins" {
   project = "moonlit-grail-428807-k4"
   location = "us-central1"
 }
-resource "google_storage_bucket" "jenkins-github1" {
+resource "google_storage_bucket" "jenkins-github2" {
   name     = "gcp_jenkins_github"
   project = "moonlit-grail-428807-k4"
   location = "us-central1"
