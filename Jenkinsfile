@@ -11,7 +11,7 @@ pipeline {
             steps {
               
               
-                git url: "https://$GIT_TOKEN@github.com/AJITHKUMAR12/jenkins_tf.git"
+                git url: "https://github.com/AJITHKUMAR12/terraform.git"
               
             }
         }
